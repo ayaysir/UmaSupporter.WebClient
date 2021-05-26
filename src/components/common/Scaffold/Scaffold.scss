@@ -3,7 +3,8 @@
   flex-direction: column;
   overflow: hidden;
   background: var(--background);
-  min-height: -webkit-fill-available;
+  // -webkit-fill-available 사용시 아이폰에서 레이아웃 꺠짐 발생
+  min-height: -webkit-fit-content;
   padding: 0px 100px;
   justify-content: center;
 }
